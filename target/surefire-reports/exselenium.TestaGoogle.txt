@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: exselenium.TestaGoogle
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+exselenium.TestaGoogle.testarNomeExistente()  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at exselenium.TestaGoogle.testarNomeExistente(TestaGoogle.java:39)
+
